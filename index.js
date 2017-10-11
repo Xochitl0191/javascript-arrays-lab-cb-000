@@ -28,10 +28,10 @@ function appendKitten(name){
 
 function prependKitten(name){
   var kitties = [name, ...kittens];
-  return kitties 
+  return kitties
 }
 
 function removeLastKitten(){
   var kitties = kittens.slice(0, kittens.length -1);
-  return kitties 
+  return kitties
 }
