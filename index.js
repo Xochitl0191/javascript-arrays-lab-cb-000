@@ -20,3 +20,8 @@ kittens.pop();
 function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
+
+function appendKitten(name){
+  var kitties = [... kittens, name];
+  return kitties
+}
